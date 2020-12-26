@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.heading-wrapper{
+    min-width: 150px;
+    padding:15px;
+    background-color: #FFF;
+    h1{
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+}
+
+.navbar-nav{
+    .nav-item{
+        margin-right: 20px;
+    }
+}
+
+#contact-heroes{
+    min-height: 70vh;
+    max-height: 70vh;
+    background: url('../images/top-cover.jpg');
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    .contact-heroes-box{
+        z-index: 5;
+        max-width: 80%;
+        text-align: center;
+        h1{
+            color: #1D19E9;
+            font-family: "Raleway", Sans-serif;
+            font-size: 59px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 1px 0px 10px #FFFFFF;
+        }
+        h2{
+            color: #FFF;
+            max-width: 60%;
+            line-height: 1.5;
+        }
+    }
+    .contact-heroes-overlay{
+        background-color: #02092880;
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+#heroes{
+    min-height: 80vh;
+    background: url('../images/consultation-header.jpg');
+    background-position: center right;
+    background-size: cover;
+
+    .heroes-box{
+        background-color: rgba(255,255,255,0.82);
+        max-width: 620px;
+        min-height: 340px;
+        max-height: 340px;
+        padding: 80px;
+        h1{
+            color: #f84d43;
+            font-family: "Roboto Condensed", Sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: capitalize;
+            letter-spacing: 0.8px;
+            line-height: 1;
+        }
+
+        h2{
+            font-family: "Roboto Condensed", Sans-serif;
+            font-size: 20px;
+            text-transform: capitalize;
+            line-height: 1.3em;
+        }
+    }
+}
+
+#services{
+    margin:120px 0;
+
+    .service-img{
+        margin-right: 20px;
+    }
+
+    .service-text-box{
+        h1{
+            color: #333333;
+            font-family: "Roboto Condensed", Sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+        }
+        p{
+            color: #7a7a7a;
+            font-family: "Roboto Condensed", Sans-serif;
+            font-size: 16px;
+            letter-spacing: 0.8px;
+        }
+    }
+}
+
+#our-service{
+    min-height: 550px;
+    .left-side{
+        background: url('/src/images/our-service.jpg');
+        background-position: center right;
+        background-size: cover;
+    }
+    .right-side{
+        padding:0 80px;
+        background-color: #f84d43;
+        h1{
+            color: #ffffff;
+            font-size: 40px;
+            font-weight: bold;
+            text-transform: capitalize;
+            line-height: 1.5em;
+            // letter-spacing: 1.5px;
+        }
+
+        ul {
+            position: relative;
+            // list-style: none;
+            margin-left: 0;
+            padding-left: 1.2em;
+
+            li{
+                font-family: "Roboto Condensed", Sans-serif;
+                font-size: 16px;
+                line-height: 2.5em;
+                letter-spacing: 0.8px;
+                color: #FFF;
+            }
+        }
+    }
+}
+
+#contact-box{
+    background-color: #2323d6;
+    .container{
+        p{
+            font-family: "Roboto Condensed", Sans-serif;
+            font-size: 16px;
+            line-height: 2;
+            letter-spacing: 0.8px;
+            color:#FFF;
+        }
+    }
+}
+
+#service-card{
+    padding:100px 0;
+    .container{
+        .box{
+            min-width: 545px;
+            max-width: 545px;
+            margin:25px;
+            img{
+                min-width: 545px;
+                max-width: 545px;
+            }
+            .service-card-detail{
+                background-color: #333333;
+                color:#FFF;
+                h1{
+                    font-weight: bold;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+
+#offering{
+    // min-height: 130px;
+    // max-height: 130px;
+    background: url('/src/images/contact-header.jpg');
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    .blue-overlay{
+        background-color: #02092880;
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+    }
+    h1{
+        color: #FFF;
+        font-family: "Roboto Condensed", Sans-serif;
+        font-size: 70px;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 1px;
+        padding:25px 0;
+        z-index: 2;
+    }
+}
+
+#form-offering{
+    padding:20px 0;
+    background-color: #efefef;
+    .btn-submit-offer{
+        width: 270px;
+    }
+}
+
+#contact-message{
+    h1{
+        color: #6ec1e4;
+        font-family: "Roboto", Sans-serif;
+        font-weight: 600;
+    }
+    .form-contact-message{
+        width: 65%;
+    }
+    .btn-submit-message{
+        min-width: 230px;
+        min-height: 45px;
+    }
+}
+
+#contact-address{
+    min-height: 565px;
+    background-color: #D4E4D6;
+    
+    .contact-address-icon{
+        fill: #fd5e29;
+        color: #fd5e29;
+        border-color: #fd5e29;
+        font-size: 64px;
+    }
+    .address-text-heading{
+        color: #777777;
+        font-weight: bold;
+    }
+    .address-text-description{
+        color: #b5b5b5;
+        max-width: 60%;
+    }
+
+    .address-text-detail{
+        color: #fd5e29;
+        font-size: 17px;
+        font-weight: bold;
+        max-width: 70%;
+    }
+}
+
+footer{
+    padding:45px 0;
+    a{
+        margin-bottom: 5px;
+        display: block;
+    }
+}
+
+.copyright{
+    min-height: 60px;
+    max-height: 60px;
+    background-color: #333;
+    color: #FFF;
+}

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #0090da !important;
+}
+.navbar .active {
+  font-weight: bold;
+}
+.navbar .nav-link {
+  color: #FFF !important;
+  letter-spacing: 1.5px;
+}
+
+#product-heroes {
+  /* background: url("/src/images/products-banner.jpg") no-repeat; */
+  background: url("../images/products-banner.jpg") no-repeat;
+  min-height: 90vh;
+}
+
+#support-heroes {
+  background: url("/src/images/support-banner.jpg") no-repeat;
+  min-height: 80vh;
+}
+
+#product-heroes, #support-heroes {
+  padding-top: 76px;
+  background-position: top center;
+  background-size: cover;
+}
+#product-heroes h1, #support-heroes h1 {
+  font-size: 3.75rem;
+  font-family: "HelveticaNeueLTPro-Bd", "Helvetica", "Arial", sans-serif;
+}
+#product-heroes h2, #support-heroes h2 {
+  font-size: 1.625rem;
+  font-family: "HelveticaNeueLTPro-Bd", "Helvetica", "Arial", sans-serif;
+  width: 60%;
+}
+
+#memory .memory-heading, #memory .storage-heading, #memory .solutions-heading, #storage .memory-heading, #storage .storage-heading, #storage .solutions-heading, #advanced-solutions .memory-heading, #advanced-solutions .storage-heading, #advanced-solutions .solutions-heading {
+  color: #0090da;
+}
+#memory .memory-desc, #memory .storage-desc, #memory .solutions-desc, #storage .memory-desc, #storage .storage-desc, #storage .solutions-desc, #advanced-solutions .memory-desc, #advanced-solutions .storage-desc, #advanced-solutions .solutions-desc {
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+#memory .memory-select, #memory .storage-select, #memory .solutions-select, #storage .memory-select, #storage .storage-select, #storage .solutions-select, #advanced-solutions .memory-select, #advanced-solutions .storage-select, #advanced-solutions .solutions-select {
+  border-radius: 0;
+  border: 1px solid #c5c5c5;
+}
+
+#storage {
+  background-color: #ededed;
+}
+#storage .storage-select {
+  background-color: transparent;
+}
+
+#sales-network-breadcrumb {
+  margin-top: 100px;
+}
+#sales-network-breadcrumb .breadcrumb {
+  background-color: transparent;
+  color: #d1d2d4;
+}
+#sales-network-breadcrumb .breadcrumb li {
+  font-size: 14px;
+}
+#sales-network-breadcrumb .breadcrumb .active {
+  color: #0090da;
+}
+
+#distributor-network h1, #sales-representatives h1, #consumer-brand h1, #sample-center h1 {
+  color: #3e3e3e;
+  font-size: 2.25rem;
+}
+#distributor-network p, #sales-representatives p, #consumer-brand p, #sample-center p {
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+}
+#distributor-network .btn-authorized, #distributor-network .btn-sample-center, #sales-representatives .btn-authorized, #sales-representatives .btn-sample-center, #consumer-brand .btn-authorized, #consumer-brand .btn-sample-center, #sample-center .btn-authorized, #sample-center .btn-sample-center {
+  font-size: 1.2rem;
+}
+
+#documentation-download .documentation-heading, #documentation-download .utilities-heading, #tools-utilities .documentation-heading, #tools-utilities .utilities-heading {
+  font-size: 1.5rem;
+  font-family: "HelveticaNeueLTPro-Bd", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1;
+}
+#documentation-download .documentation-desc, #documentation-download .utilities-desc, #tools-utilities .documentation-desc, #tools-utilities .utilities-desc {
+  font-family: "HelveticaNeueLTPro-Roman", "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+}
+#documentation-download .documentation-link, #documentation-download .utilities-link, #tools-utilities .documentation-link, #tools-utilities .utilities-link {
+  color: #0090da;
+  line-height: inherit;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#sales-support, #contact-us {
+  background-color: #ededed;
+}
+#sales-support h1, #contact-us h1 {
+  font-size: 2.25rem;
+}
+#sales-support p, #contact-us p {
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+}
+
+#tool-utilities-banner {
+  background: url("/src/images/toolsutilities-banner.jpg") no-repeat;
+  width: 100%;
+  min-height: 300px;
+  background-size: cover;
+  background-position: top center;
+}
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #d1d2d4;
+}
+footer .left-panel .social-media .social-media-icon {
+  font-size: 1.4rem;
+  color: #d1d2d4;
+}
+footer .right-panel .btn-nav {
+  min-width: 115px;
+}
+
+#copyright {
+  background-color: #d1d2d4;
+  font-size: 0.75rem;
+}
+
+/*# sourceMappingURL=main.css.map */
