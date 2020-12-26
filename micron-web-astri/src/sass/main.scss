@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background-color: #0090da !important;
+
+    .active{
+        font-weight: bold;
+    }
+    .nav-link{
+        color: #FFF !important;
+        letter-spacing: 1.5px;
+    }
+}
+
+#product-heroes{
+    background: url('/src/images/products-banner.jpg') no-repeat;
+    min-height: 90vh;
+
+}
+
+#support-heroes{
+    background: url('/src/images/support-banner.jpg') no-repeat;
+    min-height: 80vh;
+}
+
+#product-heroes, #support-heroes{
+    padding-top: 76px;
+    background-position: top center;
+    background-size: cover;
+    h1{
+        font-size: 3.75rem;
+        font-family: "HelveticaNeueLTPro-Bd","Helvetica","Arial",sans-serif;
+    }
+
+    h2{
+        font-size: 1.625rem;
+        font-family: "HelveticaNeueLTPro-Bd","Helvetica","Arial",sans-serif;
+        width: 60%;
+    }
+}
+
+#memory, #storage, #advanced-solutions{
+    .memory-heading, .storage-heading, .solutions-heading{
+        color: #0090da;
+    }
+
+    .memory-desc, .storage-desc, .solutions-desc{
+        line-height: 1.5;
+        font-size: 1.125rem;
+    }
+
+    .memory-select, .storage-select, .solutions-select{
+        border-radius: 0;
+        border: 1px solid #c5c5c5;
+    }
+}
+
+#storage{
+    background-color: #ededed;
+
+    .storage-select{
+        background-color: transparent;
+    }
+}
+
+// Sales Network
+
+#sales-network-breadcrumb{
+    margin-top: 100px;
+
+    .breadcrumb{
+        background-color: transparent;
+        color: #d1d2d4;
+        li{
+            font-size: 14px;
+        }
+        .active{
+            color: #0090da;
+        }
+    }
+}
+
+#distributor-network, #sales-representatives, #consumer-brand, #sample-center{
+    h1{
+        color: #3e3e3e;
+        font-size: 2.25rem;
+    }
+    p{
+        font-size: 1.125rem;
+        font-weight: normal;
+        line-height: 1.75rem;
+    }
+    .btn-authorized, .btn-sample-center{
+        font-size: 1.2rem;
+    }
+}
+
+// Support
+
+#documentation-download, #tools-utilities{
+    .documentation-heading, .utilities-heading{
+        font-size: 1.5rem;
+        font-family: "HelveticaNeueLTPro-Bd","Helvetica","Arial",sans-serif;
+        line-height: 1.1;
+    }
+
+    .documentation-desc, .utilities-desc{
+        font-family: "HelveticaNeueLTPro-Roman","Helvetica","Arial",sans-serif;
+        font-weight: normal;
+        font-size: 1.125rem;
+    }
+    .documentation-link, .utilities-link{
+        color: #0090da;
+        line-height: inherit;
+        font-size: 1.125rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+}
+
+#sales-support, #contact-us{
+    background-color: #ededed;
+
+    h1{
+        font-size: 2.25rem;
+    }
+    p{
+        font-size: 1.125rem;
+        font-weight: normal;
+        line-height: 1.75rem;
+    }
+}
+
+#tool-utilities-banner{
+    background: url('/src/images/toolsutilities-banner.jpg') no-repeat;
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    background-position: top center;
+}
+
+// Footer
+
+footer{
+    background-color: #fff;
+    border-top: 1px solid #d1d2d4;
+    .left-panel{
+        .social-media{
+            .social-media-icon{
+                // background-color: red;
+                font-size: 1.4rem;
+                color: #d1d2d4;
+            }
+        }
+    }
+    .right-panel{
+        .btn-nav{
+            min-width: 115px;
+        }
+    }
+    // .footer-logo{
+    //     position: absolute;
+    //     left: 0; 
+    //     right: 0; 
+    //     margin-left: auto; 
+    //     margin-right: auto; 
+    //     width: 200px;
+    // }
+}
+
+#copyright{
+    background-color: #d1d2d4;
+    font-size: 0.75rem;
+}

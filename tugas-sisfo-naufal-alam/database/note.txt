@@ -1,0 +1,12 @@
+DATA DATABASE
+
+host     : localhost
+nama     : eadevents
+username : root
+password : root
+
+(ada di connection)
+
+
+detail table:
+ (ada di screenshot)

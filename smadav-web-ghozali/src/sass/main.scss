@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#main-banner{
+    background: url("../images/main-banner.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.active{
+    color: #1FAE4B !important;
+}
+
+header{
+    background-color: red;
+}
+
+#slider{
+    padding:20px;
+    .carousel-inner{
+        max-height: 250px !important;
+    }
+}
+
+.underline { 
+    position: relative; 
+    border: none; 
+    height: 5px; 
+    background: #1FAE4B; 
+    margin-bottom: 50px; 
+} 
+
+#update-news{
+
+    .news-card{
+        h1{
+            background-color: #1FAE4B;
+            padding:5px 15px;
+            color: #FFF;
+        }
+
+        .update-list{
+            li {
+                color: black;
+                padding:2px 5px;
+            }
+            // li:nth-child(odd) {
+            //     // color: #777;
+            // }
+            li:nth-child(even) {
+                background-color: #77777720;
+            }
+        }
+    }
+}
+.main-feature-banner{
+    background: url('../images/main-feature-banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+#main-feature{
+    background-color: #EBEEF5;
+    
+}
+
+#feature-ads{
+    background-color: #1FAE4B;
+    .btn-product{
+        color: #1FAE4B;
+        width: 25%;
+    }
+}
+
+#faq{
+    background-color: #EBEEF5;
+
+    h1{
+        background-color:#1FAE4B;
+        display: inline;
+        padding:10px;
+    }
+    .accordion-heading-text{
+        color:#1FAE4B;
+    }
+}
+
+#buy-now, #confirm-now{
+    background-color:#1FAE4B;
+    min-height: 150px;
+    
+    .btn-buy-now{
+        height: 50px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: #1FAE4B;
+    }
+}
+
+#about-us{
+    .about-heading-text{
+        background-color: #1FAE4B;
+    }
+    // .about-desc-text{
+    //     color:#1FAE4B;
+    // }
+}
+
+#contact-us{
+    background-color: #EBEEF5;
+}
